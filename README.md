@@ -39,6 +39,7 @@ Once installed, it can be used in a template as simply as:
 | ---------------- | ----------- | ------------- | ----------------------------------------------------------------------------------------------------------- |
 | datetime (model) | Date/String |               | Time picker model.                                                                                          |
 | disabled         | Boolean     | false         | Input is disabled.                                                                                          |
+| hideClearButton  | Boolean     | false         | Hide Clear button.                                                                                          |
 | loading          | Boolean     | false         | Input is loading.                                                                                           |
 | label            | string      |               | Sets input label.                                                                                           |
 | dialogWidth      | Number      | 340           | The width of the dialog.                                                                                    |

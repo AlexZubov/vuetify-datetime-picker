@@ -48,7 +48,7 @@
       <v-card-actions>
         <v-spacer></v-spacer>
         <slot name="actions" :parent="this">
-          <v-btn color="grey lighten-1" text @click.native="clearHandler">{{ clearText }}</v-btn>
+          <v-btn color="grey lighten-1" text v-if="!hideClearButton" @click.native="clearHandler">{{ clearText }}</v-btn>
           <v-btn color="green darken-1" text @click="okHandler">{{ okText }}</v-btn>
         </slot>
       </v-card-actions>
@@ -116,6 +116,10 @@ export default {
     },
     timePickerProps: {
       type: Object
+    },
+    hideClearButton: {
+      type: Boolean,
+      default: false
     }
   },
   data() {

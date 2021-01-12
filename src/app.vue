@@ -73,6 +73,16 @@
           </v-expansion-panel>
 
           <v-expansion-panel>
+            <v-expansion-panel-header>Without Clear Button</v-expansion-panel-header>
+            <v-expansion-panel-content>
+              <v-flex xs4>
+                <v-datetime-picker v-model="datetime" hide-clear-button></v-datetime-picker>
+              </v-flex>
+              <div>Datetime value: <span v-text="datetime"></span></div>
+            </v-expansion-panel-content>
+          </v-expansion-panel>
+
+          <v-expansion-panel>
             <v-expansion-panel-header>Custom Actions</v-expansion-panel-header>
             <v-expansion-panel-content>
               <v-flex xs4>
