@@ -5,7 +5,7 @@
 
 DatetimePicker component for Vuetify.js.
 
-[Online Demo](http://darrenfang.github.io/vuetify-datetime-picker/ 'Online Demo')
+[Online Demo](https://alexzubov.github.io/dtp-vuetify/ 'Online Demo')
 
 [Demo Source Code](https://github.com/AlexZubov/vuetify-datetime-picker/blob/master/src/app.vue 'Demo Source Code')
 

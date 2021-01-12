@@ -3,8 +3,8 @@
     <v-container>
       <div class="mb-5">
         Get Source Code:
-        <a href="https://github.com/darrenfang/vuetify-datetime-picker/blob/master/src/app.vue" target="_blank">
-          https://github.com/darrenfang/vuetify-datetime-picker/blob/master/src/app.vue
+        <a href="https://github.com/AlexZubov/vuetify-datetime-picker/blob/master/src/app.vue" target="_blank">
+          https://github.com/AlexZubov/vuetify-datetime-picker/blob/master/src/app.vue
         </a>
       </div>
 
