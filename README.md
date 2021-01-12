@@ -17,7 +17,7 @@ npm i dtp-vuetify
 
 ```js
 import Vue from 'vue'
-import DatetimePicker from 'datetime-picker-vuetify'
+import DatetimePicker from 'dtp-vuetify'
 // (Optional) import 'vuetify-datetime-picker/src/stylus/main.styl'
 
 Vue.use(DatetimePicker)
